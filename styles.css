@@ -105,3 +105,70 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+/* イベント情報セクションのスタイル */
+#events .container {
+    padding: 20px;
+    background-color: #1e1e1e; /* 背景色をダークに */
+    color: #f0f0f0; /* テキスト色を明るく */
+    border-radius: 8px; /* コーナーを丸くする */
+}
+
+#events h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#events h4 {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#events p, #events ul {
+    margin: 10px 0;
+}
+
+#events ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#events a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#events a:hover {
+    text-decoration: underline;
+}
+
+/* 一般的なスタイルを維持しつつ、黒を基調としたデザインに適応 */
+body {
+    background-color: #121212; /* 全体の背景色 */
+    color: #e0e0e0; /* 全体のテキスト色 */
+}
+
+header, footer {
+    background-color: #1e1e1e; /* ヘッダーとフッターの背景色 */
+    color: #f0f0f0; /* ヘッダーとフッターのテキスト色 */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
