@@ -90,3 +90,13 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
+
+/* 画像のスタイル */
+.artist-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+}
+
